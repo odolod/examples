@@ -1,11 +1,4 @@
-﻿int GetNum(string message)
-{
-    Console.Write(message);
-    int res = int.Parse(Console.ReadLine());
-    return res;
-}
-
-string PrintArray(int[] array)
+﻿string PrintArray(int[] array)
 {
     string res = "[";
     for (int i = 0; i < array.Length; i++)
