@@ -31,17 +31,3 @@ for (int i = 0; i < 8; i++)
 Console.Write("Масив:"+PrintArray(array));
 Array.Sort(array);
 Console.Write(", второй максимум: " + array[6]);
-
-
-
-/* Console.Write("Сумма цифр N:");
-
-int sum = 0;
-int index = 0;
-while(n > 0) {
-    sum = sum + n % 10; 
-    n = n/10;
-    index++;     
-}  
-
-Console.Write(sum); */
